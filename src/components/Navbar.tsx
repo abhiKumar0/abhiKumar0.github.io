@@ -108,7 +108,7 @@ export default function Navbar() {
 
           {/* Desktop Nav */}
           <ul className="hidden lg:flex items-center gap-2" role="list">
-            {navItems.map((item, index) => (
+            {navItems.map((item) => (
               <li key={item.href}>
                 <motion.button
                   onClick={() => handleNavClick(item.href)}

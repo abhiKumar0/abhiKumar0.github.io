@@ -1,12 +1,6 @@
-import Navbar from './components/Navbar';
-import Hero from './sections/Hero';
-import About from './sections/About';
-import Skills from './sections/Skills';
-import Projects from './sections/Projects';
-import Education from './sections/Education';
-import Resume from './sections/Resume';
-import Contact from './sections/Contact';
-import Footer from './sections/Footer';
+import Navbar from "./components/Navbar";
+import { About, Contact, Education, Footer, Hero, Projects, Resume, Skills } from "./sections";
+
 
 function App() {
   return (

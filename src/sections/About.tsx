@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import SectionTitle from '../components/SectionTitle';
 import { fadeInUp, fadeInLeft, fadeInRight, staggerContainer } from '../utils/animations';
 
 const traits = [
