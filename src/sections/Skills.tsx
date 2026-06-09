@@ -141,6 +141,49 @@ export default function Skills() {
                 TECH STACK ARSENAL
               </span>
             </div>
+
+            {/* Competitive Programming Power Levels */}
+            <div
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                flexWrap: 'wrap',
+                gap: '1.25rem',
+                padding: '0.6rem 1.25rem',
+                background: '#111111',
+                border: '3px solid #E63946',
+                boxShadow: '5px 5px 0 #FFD60A',
+                transform: 'rotate(1deg)',
+                width: 'fit-content',
+                marginTop: '0.5rem',
+              }}
+            >
+              <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.4rem', fontFamily: "'Oswald', sans-serif" }}>
+                <span style={{ color: '#FFD60A', fontSize: '1.1rem', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                  LEETCODE
+                </span>
+                <span style={{ fontSize: '1.35rem', fontWeight: '800', color: '#F8F9FA' }}>
+                  1972
+                </span>
+                <span style={{ fontSize: '0.9rem', color: '#F8F9FA', opacity: 0.7, fontWeight: '500' }}>
+                  (KNIGHT)
+                </span>
+              </div>
+              
+              <span style={{ color: '#E63946', fontWeight: 'bold', fontSize: '1.2rem' }}>•</span>
+              
+              <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.4rem', fontFamily: "'Oswald', sans-serif" }}>
+                <span style={{ color: '#FFD60A', fontSize: '1.1rem', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                  CODEFORCES
+                </span>
+                <span style={{ fontSize: '1.35rem', fontWeight: '800', color: '#F8F9FA' }}>
+                  1276
+                </span>
+                <span style={{ fontSize: '0.9rem', color: '#F8F9FA', opacity: 0.7, fontWeight: '500' }}>
+                  (PUPIL)
+                </span>
+              </div>
+            </div>
           </div>
         </div>
 

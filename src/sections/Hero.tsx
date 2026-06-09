@@ -289,17 +289,43 @@ export default function Hero() {
 
           {/* Responsive halftone sun */}
           <div
-            className="absolute rounded-full"
+            className="absolute"
             style={{
               width: 'clamp(280px, 40vw, 520px)',
               height: 'clamp(280px, 40vw, 520px)',
-              background: '#E63946',
               right: 'clamp(10px, 2vw, 20px)',
               top: '50%',
               transform: 'translateY(-50%)',
-              boxShadow: 'clamp(7px, 2vw, 14px) clamp(7px, 2vw, 14px) 0 #FFD60A',
             }}
-          />
+          >
+            {/* Red circle background */}
+            <div
+              className="w-full h-full rounded-full"
+              style={{
+                background: '#E63946',
+                boxShadow: 'clamp(7px, 2vw, 14px) clamp(7px, 2vw, 14px) 0 #FFD60A',
+              }}
+            />
+            
+            {/* Layer 1: Clipped image (masks the bottom portion inside the circle) */}
+            <div className="absolute inset-0 rounded-full overflow-hidden">
+              <img
+                src="/p.png"
+                alt="Abhishek bottom"
+                className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[120%] object-contain origin-bottom pointer-events-none"
+              />
+            </div>
+
+            {/* Layer 2: Unclipped image (allows top of head/hair to overflow the circle) */}
+            <img
+              src="/p.png"
+              alt="Abhishek top"
+              className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[120%] object-contain origin-bottom pointer-events-none"
+              style={{
+                clipPath: 'inset(0 0 30% 0)',
+              }}
+            />
+          </div>
 
           {/* Responsive halftone ring */}
           <div

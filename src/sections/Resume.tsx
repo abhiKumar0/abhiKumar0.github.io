@@ -2,9 +2,9 @@ import { motion } from 'framer-motion';
 import { fadeInLeft, fadeInRight } from '../utils/animations';
 
 const highlights = [
-  { label: 'Focus', value: 'Real-Time Full-Stack Engineering' },
+  { label: 'Focus', value: 'Full-Stack Engineering' },
   { label: 'Degree', value: 'MCA — 2024–Present' },
-  { label: 'Stack', value: 'Next.js · WebRTC · Socket.IO · Redis' },
+  { label: 'Stack', value: 'Java, Next.js, MERN, SpringBoot' },
   { label: 'Achievement', value: 'LeetCode 1972 · CF 1276' },
 ];
 
