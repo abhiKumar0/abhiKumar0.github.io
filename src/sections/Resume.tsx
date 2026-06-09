@@ -115,7 +115,7 @@ export default function Resume() {
             </motion.a>
 
             <div style={{ marginTop: '0.75rem', color: 'rgba(248,249,250,0.25)', fontSize: '0.8rem' }}>
-              This preview is based on the actual public/Resume.pdf file.
+              This preview is based on the actual Resume.
             </div>
           </motion.div>
 
@@ -138,7 +138,7 @@ export default function Resume() {
                     <div className="font-heading text-[9px] font-bold tracking-widest uppercase" style={{ color: '#E63946', marginBottom: '0.45rem' }}>EDUCATION</div>
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '0.35rem' }}>
                       <span className="font-heading" style={{ color: '#111111', fontSize: '0.8rem' }}>MCA, MNNIT Allahabad — 2024–Present</span>
-                      <span className="font-heading" style={{ color: '#111111', fontSize: '0.8rem' }}>CPI: 8.48 (Till 3rd Sem)</span>
+                      <span className="font-heading" style={{ color: '#111111', fontSize: '0.8rem' }}>CPI: 8.36 (Till 4th Sem)</span>
                       <span className="font-heading" style={{ color: '#111111', fontSize: '0.8rem' }}>B.Sc. Mathematics, Allahabad State University — 2020–2024</span>
                     </div>
                   </div>

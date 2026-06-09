@@ -107,6 +107,7 @@ export const education: Education[] = [
     description:
       'Specializing in software engineering, distributed systems, and advanced algorithms. Building scalable systems and real-world applications as part of coursework and personal projects.',
     status: 'Ongoing',
+    cpi: '8.36',
   },
 ];
 

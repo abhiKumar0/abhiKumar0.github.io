@@ -25,6 +25,7 @@ export interface Education {
   duration: string;
   description: string;
   status: string;
+  cpi?: string;
 }
 
 export interface ContactLink {

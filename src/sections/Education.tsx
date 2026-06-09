@@ -370,18 +370,62 @@ export default function Education() {
                     </span>
                   </div>
 
-                  <div
-                    style={{
-                      position: 'absolute',
-                      bottom: '1rem',
-                      right: '1rem',
-                      width: '3rem',
-                      height: '3rem',
-                      backgroundColor: 'rgba(255,214,10,0.12)',
-                      border: `2px solid ${accentColor}`,
-                    }}
-                    aria-hidden="true"
-                  />
+                  {edu.cpi ? (
+                    <div
+                      style={{
+                        position: 'absolute',
+                        bottom: '1rem',
+                        right: '1rem',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        padding: '0.35rem 0.75rem',
+                        backgroundColor: '#FFD60A',
+                        border: '2px solid #111111',
+                        boxShadow: '3px 3px 0 #111111',
+                        transform: 'rotate(4deg)',
+                        zIndex: 10,
+                      }}
+                    >
+                      <span
+                        className="font-heading uppercase tracking-wider"
+                        style={{
+                          fontSize: '0.55rem',
+                          color: '#111111',
+                          fontWeight: 'bold',
+                          lineHeight: 1,
+                        }}
+                      >
+                        CPI SCORE
+                      </span>
+                      <span
+                        className="font-comic"
+                        style={{
+                          fontSize: '1.2rem',
+                          color: '#111111',
+                          lineHeight: 1.1,
+                          marginTop: '0.1rem',
+                          fontWeight: 900,
+                        }}
+                      >
+                        {edu.cpi}
+                      </span>
+                    </div>
+                  ) : (
+                    <div
+                      style={{
+                        position: 'absolute',
+                        bottom: '1rem',
+                        right: '1rem',
+                        width: '3rem',
+                        height: '3rem',
+                        backgroundColor: 'rgba(255,214,10,0.12)',
+                        border: `2px solid ${accentColor}`,
+                      }}
+                      aria-hidden="true"
+                    />
+                  )}
                 </motion.article>
               </div>
             );
